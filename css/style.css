@@ -31,6 +31,12 @@ ul {
 	width: 100%;
 }
 
+.drawer {
+   -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+    position: fixed;
+}
+
 /*Header*/
 .globalHeader {
 	position: relative;
@@ -137,8 +143,8 @@ ul {
 		width: 100%
 		text-align: center;
 	}
+	.globalHeader .nav {
+		display: none;
+	}	
 }
-
-
-
 
