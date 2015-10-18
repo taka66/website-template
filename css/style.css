@@ -74,6 +74,8 @@ ul {
 .mainImgInner{
 	margin: 0 auto;
 	max-width: 960px;
+	position: relative;
+
 }
 
 /*Products*/
@@ -113,6 +115,13 @@ ul {
 	font-size: 1em;
 	text-align: center;
 }
+
+@media screen and (min-width: 480px) {
+	.imgSp {
+		display: none;
+	}
+}
+
 /*For tablet*/
 @media screen and (max-width: 768px) {
 	.globalHeader {
@@ -145,6 +154,12 @@ ul {
 	}
 	.globalHeader .nav {
 		display: none;
-	}	
+	}
+	.goastButton {
+		display: none;
+	}
+	.imgGoast {
+		display: none;
+	}
 }
 

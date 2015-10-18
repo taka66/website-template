@@ -1,0 +1,45 @@
+.goastButton {
+	position: absolute;
+	width: 70%;
+	top: 60%;
+	left: 0;
+    right: 0;
+	margin: 0 auto;
+}
+
+.goastButton ul {
+    list-style-type: none;
+    padding-left: 0;
+	text-align: center;
+}
+
+.goastButton li {
+	display: inline-block;
+}
+
+.btn {
+	width: 160px;
+	left: 0;
+    right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn a {
+	width: 120px;
+	font-size: 16px;
+	display: inline-block;
+	padding: 5% 4%;
+	transition: 0.2s;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	background: transparent;
+}
+
+.btn a:hover {
+	border: 1px solid rgba(0,0,0,.1);
+	background: rgba(0, 0, 0, 0.5);
+}
